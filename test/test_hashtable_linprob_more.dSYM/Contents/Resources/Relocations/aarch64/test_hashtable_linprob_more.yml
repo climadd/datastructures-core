@@ -1,0 +1,55 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     test_hashtable_linprob_more
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000419C, symSize: 0x80 }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000419C, symSize: 0x80 }
+  - { offsetInCU: 0x5C, offset: 0x5C, size: 0x8, addend: 0x0, symName: _test_keys, symObjAddr: 0x80, symBinAddr: 0x10000421C, symSize: 0xA10 }
+  - { offsetInCU: 0x1A2, offset: 0x1A2, size: 0x8, addend: 0x0, symName: _int_compare, symObjAddr: 0xA90, symBinAddr: 0x100004C2C, symSize: 0x60 }
+  - { offsetInCU: 0x1F4, offset: 0x1F4, size: 0x8, addend: 0x0, symName: _test_traverse, symObjAddr: 0xAF0, symBinAddr: 0x100004C8C, symSize: 0x6FC }
+  - { offsetInCU: 0x294, offset: 0x294, size: 0x8, addend: 0x0, symName: _count_key_visit, symObjAddr: 0x11EC, symBinAddr: 0x100005388, symSize: 0x98 }
+  - { offsetInCU: 0x26, offset: 0x399, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_create, symObjAddr: 0x0, symBinAddr: 0x100005420, symSize: 0x1BC }
+  - { offsetInCU: 0x5A, offset: 0x3CD, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_create, symObjAddr: 0x0, symBinAddr: 0x100005420, symSize: 0x1BC }
+  - { offsetInCU: 0xBA, offset: 0x42D, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_destroy, symObjAddr: 0x1BC, symBinAddr: 0x1000055DC, symSize: 0x58 }
+  - { offsetInCU: 0xEC, offset: 0x45F, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_clear, symObjAddr: 0x214, symBinAddr: 0x100005634, symSize: 0x128 }
+  - { offsetInCU: 0x172, offset: 0x4E5, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_put, symObjAddr: 0x33C, symBinAddr: 0x10000575C, symSize: 0x188 }
+  - { offsetInCU: 0x1E0, offset: 0x553, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_insert, symObjAddr: 0x4C4, symBinAddr: 0x1000058E4, symSize: 0x154 }
+  - { offsetInCU: 0x23C, offset: 0x5AF, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_get, symObjAddr: 0x618, symBinAddr: 0x100005A38, symSize: 0x10C }
+  - { offsetInCU: 0x28E, offset: 0x601, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_contains, symObjAddr: 0x724, symBinAddr: 0x100005B44, symSize: 0x108 }
+  - { offsetInCU: 0x2E0, offset: 0x653, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_delete, symObjAddr: 0x82C, symBinAddr: 0x100005C4C, symSize: 0x184 }
+  - { offsetInCU: 0x34A, offset: 0x6BD, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_size, symObjAddr: 0x9B0, symBinAddr: 0x100005DD0, symSize: 0x40 }
+  - { offsetInCU: 0x372, offset: 0x6E5, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_is_empty, symObjAddr: 0x9F0, symBinAddr: 0x100005E10, symSize: 0x3C }
+  - { offsetInCU: 0x39A, offset: 0x70D, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_capacity, symObjAddr: 0xA2C, symBinAddr: 0x100005E4C, symSize: 0x44 }
+  - { offsetInCU: 0x3C2, offset: 0x735, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_load_factor, symObjAddr: 0xA70, symBinAddr: 0x100005E90, symSize: 0x40 }
+  - { offsetInCU: 0x3EA, offset: 0x75D, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_get_comparator, symObjAddr: 0xAB0, symBinAddr: 0x100005ED0, symSize: 0x18 }
+  - { offsetInCU: 0x414, offset: 0x787, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_get_hasher, symObjAddr: 0xAC8, symBinAddr: 0x100005EE8, symSize: 0x18 }
+  - { offsetInCU: 0x43E, offset: 0x7B1, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_create, symObjAddr: 0xAE0, symBinAddr: 0x100005F00, symSize: 0x1F8 }
+  - { offsetInCU: 0x4A4, offset: 0x817, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_destroy, symObjAddr: 0xCD8, symBinAddr: 0x1000060F8, symSize: 0x58 }
+  - { offsetInCU: 0x4D9, offset: 0x84C, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_clear, symObjAddr: 0xD30, symBinAddr: 0x100006150, symSize: 0x164 }
+  - { offsetInCU: 0x52B, offset: 0x89E, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_put, symObjAddr: 0xE94, symBinAddr: 0x1000062B4, symSize: 0x28C }
+  - { offsetInCU: 0x5AF, offset: 0x922, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_load_factor, symObjAddr: 0x1120, symBinAddr: 0x100006540, symSize: 0x40 }
+  - { offsetInCU: 0x5D9, offset: 0x94C, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_resize, symObjAddr: 0x1160, symBinAddr: 0x100006580, symSize: 0x1B0 }
+  - { offsetInCU: 0x63A, offset: 0x9AD, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_insert, symObjAddr: 0x1310, symBinAddr: 0x100006730, symSize: 0x260 }
+  - { offsetInCU: 0x6AB, offset: 0xA1E, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_get, symObjAddr: 0x1570, symBinAddr: 0x100006990, symSize: 0x178 }
+  - { offsetInCU: 0x6F3, offset: 0xA66, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_contains, symObjAddr: 0x16E8, symBinAddr: 0x100006B08, symSize: 0x160 }
+  - { offsetInCU: 0x73B, offset: 0xAAE, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_delete, symObjAddr: 0x1848, symBinAddr: 0x100006C68, symSize: 0x21C }
+  - { offsetInCU: 0x78E, offset: 0xB01, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_size, symObjAddr: 0x1A64, symBinAddr: 0x100006E84, symSize: 0x40 }
+  - { offsetInCU: 0x7B8, offset: 0xB2B, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_is_empty, symObjAddr: 0x1AA4, symBinAddr: 0x100006EC4, symSize: 0x3C }
+  - { offsetInCU: 0x7E2, offset: 0xB55, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_capacity, symObjAddr: 0x1AE0, symBinAddr: 0x100006F00, symSize: 0x44 }
+  - { offsetInCU: 0x80C, offset: 0xB7F, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_keys, symObjAddr: 0x1B24, symBinAddr: 0x100006F44, symSize: 0x174 }
+  - { offsetInCU: 0x8AB, offset: 0xC1E, size: 0x8, addend: 0x0, symName: _upo_ht_sepchain_traverse, symObjAddr: 0x1C98, symBinAddr: 0x1000070B8, symSize: 0xE8 }
+  - { offsetInCU: 0x929, offset: 0xC9C, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_keys, symObjAddr: 0x1D80, symBinAddr: 0x1000071A0, symSize: 0x158 }
+  - { offsetInCU: 0x9AB, offset: 0xD1E, size: 0x8, addend: 0x0, symName: _upo_ht_linprob_traverse, symObjAddr: 0x1ED8, symBinAddr: 0x1000072F8, symSize: 0xC8 }
+  - { offsetInCU: 0xA29, offset: 0xD9C, size: 0x8, addend: 0x0, symName: _upo_ht_hash_int_div, symObjAddr: 0x1FA0, symBinAddr: 0x1000073C0, symSize: 0xC0 }
+  - { offsetInCU: 0xA62, offset: 0xDD5, size: 0x8, addend: 0x0, symName: _upo_ht_hash_int_mult, symObjAddr: 0x2060, symBinAddr: 0x100007480, symSize: 0x160 }
+  - { offsetInCU: 0xAAA, offset: 0xE1D, size: 0x8, addend: 0x0, symName: _upo_ht_hash_int_mult_knuth, symObjAddr: 0x21C0, symBinAddr: 0x1000075E0, symSize: 0x44 }
+  - { offsetInCU: 0xAE3, offset: 0xE56, size: 0x8, addend: 0x0, symName: _upo_ht_hash_str, symObjAddr: 0x2204, symBinAddr: 0x100007624, symSize: 0x170 }
+  - { offsetInCU: 0xB58, offset: 0xECB, size: 0x8, addend: 0x0, symName: _upo_ht_hash_str_djb2, symObjAddr: 0x2374, symBinAddr: 0x100007794, symSize: 0x34 }
+  - { offsetInCU: 0xB91, offset: 0xF04, size: 0x8, addend: 0x0, symName: _upo_ht_hash_str_djb2a, symObjAddr: 0x23A8, symBinAddr: 0x1000077C8, symSize: 0x120 }
+  - { offsetInCU: 0xBE8, offset: 0xF5B, size: 0x8, addend: 0x0, symName: _upo_ht_hash_str_java, symObjAddr: 0x24C8, symBinAddr: 0x1000078E8, symSize: 0x34 }
+  - { offsetInCU: 0xC21, offset: 0xF94, size: 0x8, addend: 0x0, symName: _upo_ht_hash_str_kr2e, symObjAddr: 0x24FC, symBinAddr: 0x10000791C, symSize: 0x34 }
+  - { offsetInCU: 0xC5A, offset: 0xFCD, size: 0x8, addend: 0x0, symName: _upo_ht_hash_str_sgistl, symObjAddr: 0x2530, symBinAddr: 0x100007950, symSize: 0x34 }
+  - { offsetInCU: 0xC93, offset: 0x1006, size: 0x8, addend: 0x0, symName: _upo_ht_hash_str_stlport, symObjAddr: 0x2564, symBinAddr: 0x100007984, symSize: 0x34 }
+  - { offsetInCU: 0x26, offset: 0x1278, size: 0x8, addend: 0x0, symName: _upo_swap, symObjAddr: 0x0, symBinAddr: 0x1000079B8, symSize: 0x14C }
+  - { offsetInCU: 0x41, offset: 0x1293, size: 0x8, addend: 0x0, symName: _upo_swap, symObjAddr: 0x0, symBinAddr: 0x1000079B8, symSize: 0x14C }
+...

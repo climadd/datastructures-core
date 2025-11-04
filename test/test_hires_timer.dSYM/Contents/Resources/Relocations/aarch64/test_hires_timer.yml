@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     test_hires_timer
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000030C4, symSize: 0xCC }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000030C4, symSize: 0xCC }
+  - { offsetInCU: 0x5A, offset: 0x5A, size: 0x8, addend: 0x0, symName: _test_create_destroy, symObjAddr: 0xCC, symBinAddr: 0x100003190, symSize: 0x6C }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _test_start, symObjAddr: 0x138, symBinAddr: 0x1000031FC, symSize: 0xC0 }
+  - { offsetInCU: 0xA2, offset: 0xA2, size: 0x8, addend: 0x0, symName: _test_stop, symObjAddr: 0x1F8, symBinAddr: 0x1000032BC, symSize: 0x110 }
+  - { offsetInCU: 0xC6, offset: 0xC6, size: 0x8, addend: 0x0, symName: _test_elapsed, symObjAddr: 0x308, symBinAddr: 0x1000033CC, symSize: 0x114 }
+  - { offsetInCU: 0x26, offset: 0x12C, size: 0x8, addend: 0x0, symName: _upo_hires_timer_create, symObjAddr: 0x0, symBinAddr: 0x1000034E0, symSize: 0x100 }
+  - { offsetInCU: 0x46, offset: 0x14C, size: 0x8, addend: 0x0, symName: _upo_hires_timer_create, symObjAddr: 0x0, symBinAddr: 0x1000034E0, symSize: 0x100 }
+  - { offsetInCU: 0x8A, offset: 0x190, size: 0x8, addend: 0x0, symName: _upo_hires_timer_destroy, symObjAddr: 0x100, symBinAddr: 0x1000035E0, symSize: 0x3C }
+  - { offsetInCU: 0xAE, offset: 0x1B4, size: 0x8, addend: 0x0, symName: _upo_hires_timer_start, symObjAddr: 0x13C, symBinAddr: 0x10000361C, symSize: 0x138 }
+  - { offsetInCU: 0xFC, offset: 0x202, size: 0x8, addend: 0x0, symName: _upo_hires_timer_stop, symObjAddr: 0x274, symBinAddr: 0x100003754, symSize: 0x140 }
+  - { offsetInCU: 0x158, offset: 0x25E, size: 0x8, addend: 0x0, symName: _upo_hires_timer_is_stopped, symObjAddr: 0x3B4, symBinAddr: 0x100003894, symSize: 0xAC }
+  - { offsetInCU: 0x180, offset: 0x286, size: 0x8, addend: 0x0, symName: _upo_hires_timer_is_started, symObjAddr: 0x460, symBinAddr: 0x100003940, symSize: 0xAC }
+  - { offsetInCU: 0x1A8, offset: 0x2AE, size: 0x8, addend: 0x0, symName: _upo_hires_timer_elapsed, symObjAddr: 0x50C, symBinAddr: 0x1000039EC, symSize: 0x1F0 }
+...

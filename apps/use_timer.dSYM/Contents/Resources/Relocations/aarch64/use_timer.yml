@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     use_timer
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A60, symSize: 0xA4 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A60, symSize: 0xA4 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _do_something, symObjAddr: 0xA4, symBinAddr: 0x100003B04, symSize: 0x38 }
+  - { offsetInCU: 0x26, offset: 0x10A, size: 0x8, addend: 0x0, symName: _upo_timer_create, symObjAddr: 0x0, symBinAddr: 0x100003B3C, symSize: 0x68 }
+  - { offsetInCU: 0x46, offset: 0x12A, size: 0x8, addend: 0x0, symName: _upo_timer_create, symObjAddr: 0x0, symBinAddr: 0x100003B3C, symSize: 0x68 }
+  - { offsetInCU: 0x6E, offset: 0x152, size: 0x8, addend: 0x0, symName: _upo_timer_throw_error, symObjAddr: 0x68, symBinAddr: 0x100003BA4, symSize: 0x90 }
+  - { offsetInCU: 0x92, offset: 0x176, size: 0x8, addend: 0x0, symName: _upo_timer_destroy, symObjAddr: 0xF8, symBinAddr: 0x100003C34, symSize: 0x3C }
+  - { offsetInCU: 0xB6, offset: 0x19A, size: 0x8, addend: 0x0, symName: _upo_timer_start, symObjAddr: 0x134, symBinAddr: 0x100003C70, symSize: 0x54 }
+  - { offsetInCU: 0xDA, offset: 0x1BE, size: 0x8, addend: 0x0, symName: _upo_timer_stop, symObjAddr: 0x188, symBinAddr: 0x100003CC4, symSize: 0x68 }
+  - { offsetInCU: 0xFE, offset: 0x1E2, size: 0x8, addend: 0x0, symName: _upo_timer_is_stopped, symObjAddr: 0x1F0, symBinAddr: 0x100003D2C, symSize: 0x60 }
+  - { offsetInCU: 0x126, offset: 0x20A, size: 0x8, addend: 0x0, symName: _upo_timer_is_started, symObjAddr: 0x250, symBinAddr: 0x100003D8C, symSize: 0x60 }
+  - { offsetInCU: 0x14E, offset: 0x232, size: 0x8, addend: 0x0, symName: _upo_timer_elapsed, symObjAddr: 0x2B0, symBinAddr: 0x100003DEC, symSize: 0xB8 }
+...

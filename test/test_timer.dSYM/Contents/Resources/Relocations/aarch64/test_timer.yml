@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     test_timer
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000035C4, symSize: 0xCC }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000035C4, symSize: 0xCC }
+  - { offsetInCU: 0x5A, offset: 0x5A, size: 0x8, addend: 0x0, symName: _test_create_destroy, symObjAddr: 0xCC, symBinAddr: 0x100003690, symSize: 0x6C }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _test_start, symObjAddr: 0x138, symBinAddr: 0x1000036FC, symSize: 0xC0 }
+  - { offsetInCU: 0xA2, offset: 0xA2, size: 0x8, addend: 0x0, symName: _test_stop, symObjAddr: 0x1F8, symBinAddr: 0x1000037BC, symSize: 0x110 }
+  - { offsetInCU: 0xC6, offset: 0xC6, size: 0x8, addend: 0x0, symName: _test_elapsed, symObjAddr: 0x308, symBinAddr: 0x1000038CC, symSize: 0x114 }
+  - { offsetInCU: 0x26, offset: 0x12C, size: 0x8, addend: 0x0, symName: _upo_timer_create, symObjAddr: 0x0, symBinAddr: 0x1000039E0, symSize: 0x68 }
+  - { offsetInCU: 0x46, offset: 0x14C, size: 0x8, addend: 0x0, symName: _upo_timer_create, symObjAddr: 0x0, symBinAddr: 0x1000039E0, symSize: 0x68 }
+  - { offsetInCU: 0x6E, offset: 0x174, size: 0x8, addend: 0x0, symName: _upo_timer_throw_error, symObjAddr: 0x68, symBinAddr: 0x100003A48, symSize: 0x90 }
+  - { offsetInCU: 0x92, offset: 0x198, size: 0x8, addend: 0x0, symName: _upo_timer_destroy, symObjAddr: 0xF8, symBinAddr: 0x100003AD8, symSize: 0x3C }
+  - { offsetInCU: 0xB6, offset: 0x1BC, size: 0x8, addend: 0x0, symName: _upo_timer_start, symObjAddr: 0x134, symBinAddr: 0x100003B14, symSize: 0x54 }
+  - { offsetInCU: 0xDA, offset: 0x1E0, size: 0x8, addend: 0x0, symName: _upo_timer_stop, symObjAddr: 0x188, symBinAddr: 0x100003B68, symSize: 0x68 }
+  - { offsetInCU: 0xFE, offset: 0x204, size: 0x8, addend: 0x0, symName: _upo_timer_is_stopped, symObjAddr: 0x1F0, symBinAddr: 0x100003BD0, symSize: 0x60 }
+  - { offsetInCU: 0x126, offset: 0x22C, size: 0x8, addend: 0x0, symName: _upo_timer_is_started, symObjAddr: 0x250, symBinAddr: 0x100003C30, symSize: 0x60 }
+  - { offsetInCU: 0x14E, offset: 0x254, size: 0x8, addend: 0x0, symName: _upo_timer_elapsed, symObjAddr: 0x2B0, symBinAddr: 0x100003C90, symSize: 0xB8 }
+...
